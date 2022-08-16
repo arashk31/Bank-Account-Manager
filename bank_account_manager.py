@@ -175,7 +175,6 @@ if __name__ == '__main__':
             if i[1] == customerID:
                 cust_accounts.append(i[2])
                 isCustomer = True
-        print(cust_accounts)
         if isCustomer is True:
             isAccountSelected = False
 
